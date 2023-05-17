@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.input {
+  width: 295px;
+  height: 30px;
+  border: rgb(122, 195, 238) 2px solid;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.input:focus {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  padding: 7px;
+  margin-top: 5px;
+  width: 300px;
+  background-color: rgb(122, 195, 238);
+  border: none;
+  border-radius: 4px;
+}
